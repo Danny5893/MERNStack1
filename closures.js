@@ -38,3 +38,9 @@ function Account(name,address, type){
 }
 
 var closuerObj =  Account("gracia","US" ,"saving")
+
+console.log(closuerObj("garcia", "ashgduyuywuu"))
+console.log(closuerObj("Garcia","usaduuuwii"))
+
+//try creating closure structure for student object, keeping their internal marks as private
+
