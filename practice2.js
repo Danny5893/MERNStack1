@@ -45,5 +45,6 @@ var Jobs = {
     }
 }
 
+var Student 
 
 var nullProto = Object.create(null)

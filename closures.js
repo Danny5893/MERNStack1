@@ -7,7 +7,7 @@
 // Closures: a phoenomenon when we have two nested functions and the parent function returns child one, at the time of 
 // return child function onlu retun some required properties and others are keep private
 
-function Closures(params){
+function Closures(){
 
     var func = function(){
         return func;
