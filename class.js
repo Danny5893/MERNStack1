@@ -1,18 +1,35 @@
+//class behaves almost similar to what we have in java/ C#
 
 class Account {
-    constructor(accName,accBal){
+    constructor(accName, accBal){
         this.AccountName = accName
         this.AccountBalance = accBal
     }
-    getAccountDetails = function(){
-        return `Account Details are ${this.AccountName} and ${this.AccountBalance}`
+
+    getAccountDetails = function () {
+        return `Account Details are ${this.AccountName } and ${this.AccountBalance }`
     }
-    getDetails = ()=> `Account Details are ${this.AccountName} and ${this.AccountBalance}`
+
+    getDetails = () => `Account Details are ${this.AccountName } and ${this.AccountBalance }`
+    
 }
 
-let accObj = new Account("Khan","$1220000")
+let accObj = new Account("Khan", "$120000")
 
 console.log(accObj.getAccountDetails())
 console.log(accObj.getDetails())
 
 
+//Question : create a class to calculate area of anything - rectangle, circle, one object of your choice
+
+class Circle{
+    constructor(radius){
+        this.radius = radius
+    }
+    getArea = function(){
+        return `The area of radius ${this.radius} is ${this.radius*this.radius}`
+    }
+}
+
+let circle1 = new Circle(14)
+console.log(circle1.getArea())
