@@ -16,7 +16,7 @@
     // console.log(myConst)
 }
 
-//console.log(myVal)
+// console.log(myVal)
 // console.log(myLet)
 // console.log(myConst)
 
