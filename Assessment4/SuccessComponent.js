@@ -9,19 +9,17 @@ class Success extends React.Component {
       quotes :  "Success is success",
       name : "John",
       address : "123 City Street",
-      randomValue : " what is success.",
+      randomValue : "",
     }
     return (
       <div>
         <h2>Success</h2>
-        <p>Quotes:</p>
-        <ul>
-          {quotes.map((quote, index) => (
-            <li key={index}>{quote}</li>
-          ))}
-        </ul>
-        <p>Name: {this.state.name}</p>
-        <p>Address: {this.state.address}</p>
+          <p>Quotes:</p>
+            <ul>
+              {this.state.quotes}
+            </ul>
+          <p>Name: {this.state.name}</p>
+          <p>Address: {this.state.address}</p>
 
         <SuccessChild name={this.state.name} address={this.state.address} randomValue={this.state.randomValue} />
         <SuccessStory randomValue={this.state.randomValue}/>
